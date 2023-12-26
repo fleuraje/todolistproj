@@ -9,7 +9,7 @@ export const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
         {task.task}
       </p>
       <div>
-        <FontAwesomeIcon className="edit-icon" icon={faPenSquare} onClick={() => editTodo(task.id)} />
+        <FontAwesomeIcon className="edit-icon" icon={faPenSquare} onClick={() => editTodo(task.id)} onClickCapture={() => editTodoForm(task.id)} />
         <FontAwesomeIcon className="delete-icon" icon={faTrash} onClick={() => deleteTodo(task.id)} />
       </div>
     </div>
