@@ -2,7 +2,7 @@
 
 ## A React-Based Todo List Project
 
-Welcome to Todolistproj – a sleek and functional React-based Todo List project designed to keep you organized and on top of your tasks.
+Welcome to Todolistproj React-based Todo List project designed to keep you organized and on top of your tasks.
 
 ---
 
